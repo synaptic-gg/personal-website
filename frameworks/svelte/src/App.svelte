@@ -5,7 +5,7 @@ import "./app.css";
 
 </script>
 
-<BackgroundBeamCollision class="border-2" >
+<BackgroundBeamCollision class=" rounded-lg" >
   <div class=" flex flex-col items-center  h-full" >
     <div class="grow">
       <div class="flex flex-col items-center h-full justify-center">

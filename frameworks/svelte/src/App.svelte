@@ -4,13 +4,13 @@ import "./app.css";
   let tag :String = "Just a nerd who codes for fun" ;
 
 </script>
-
-<BackgroundBeamCollision class=" rounded-lg" >
-  <div class=" flex flex-col items-center  h-full" >
-    <div class="grow">
+<div class="rounded-lg ">
+<BackgroundBeamCollision class=" rounded-lg p-5 " >
+  <div class=" flex flex-col items-center  h-full " >
+    <div class="grow ">
       <div class="flex flex-col items-center h-full justify-center">
   <h2
-    class="text-2xl  relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight md:px-24 "
+    class="text-xl  relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight md:px-24 "
   >
     I am Synaptic
     <br />
@@ -33,10 +33,11 @@ import "./app.css";
   </h2>
   </div>
   </div>
-  <div class=" translate-y-[-2vh]" >
-    <h3 class="text-2xl  relative z-20 md:text-2xl lg:text-2xl font-bold text-center text-black dark:text-white font-sans tracking-tight md:px-24 "
+  <div class=" translate-y-[-1vh] md:translate-y-[-2vh] lg:translate-y-[-2vh] " >
+    <h3 class="text-xs  relative z-20 md:text-xl lg:text-xl font-bold text-center text-black dark:text-white font-sans tracking-tight md:px-24 "
 
     >This part is written in svelte</h3>
   </div>
   </div>
 </BackgroundBeamCollision>
+</div>

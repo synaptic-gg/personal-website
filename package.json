@@ -13,6 +13,6 @@
     "tailwindcss": "^4.1.6"
   },
   "scripts": {
-    "build:all": "bun run --cwd ./frameworks/svelte build && bun run --cwd ./frameworks/react build "
+    "build:all": "bun run --cwd ./frameworks/svelte build && bun run --cwd ./frameworks/react build && bun run --cwd ./frameworks/solid build && bun run --cwd ./frameworks/angular build"
   }
 }

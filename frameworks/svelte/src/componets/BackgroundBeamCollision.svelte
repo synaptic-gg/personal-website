@@ -19,7 +19,7 @@
   };
    export let beams: Beam[] = []
    const classes = ["h-4", "h-6", "h-12", "h-20","h-8","h-10","h-14","h-6"]
-   const runs = Math.floor(Math.random() * 10) +40;
+   const runs = Math.floor(Math.random() * 10) +20;
    for(let i =0  ; i<runs;i++){
  const initialX = Math.floor(Math.random() * 1400); 
   const translateX = initialX + Math.floor(Math.random() * 100); 
@@ -48,7 +48,7 @@
 
 <div
   bind:this={parentRef}
-  class={` min-h-100 w-full relative flex items-center  justify-center overflow-hidden ${_class}`}
+  class={` min-h-50 lg:min-h-100 w-full relative flex items-center  justify-center overflow-hidden ${_class}`}
 >
   {#each beams as beam}
     <CollisionMechanism {beam} bind:containerRef bind:parentRef />

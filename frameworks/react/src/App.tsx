@@ -9,7 +9,7 @@ function App() {
         Synaptic <br />  Codes
       </h2>
       <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center">
-        This part is written in React
+        This part is written in <strong>React</strong>
       </p>
        <br />
     </BackgroundLines>

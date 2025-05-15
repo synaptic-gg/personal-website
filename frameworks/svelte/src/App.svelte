@@ -10,20 +10,19 @@ import "./app.css";
     <div class="grow ">
       <div class="flex flex-col items-center h-full justify-center">
   <h2
-    class="text-xl  relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight md:px-24 "
+    class="text-xl  relative z-20 lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight  "
   >
     I am Synaptic
-    <br />
     <div
       class="relative mx-auto inline-block w-max "
     >
       <div
-        class="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]"
+        class="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-1 from-purple-500 via-violet-500 to-pink-500 "
       >
         <span class="">{tag}</span>
       </div>
       <div
-        class="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4 "
+        class="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-1 "
       >
         <span class="">{tag}</span>
       </div>
@@ -33,11 +32,11 @@ import "./app.css";
   </h2>
   </div>
   </div>
-  <br>
-  <div class="" >
+  <div class="h-2"></div>
+  <div >
     <h3 class="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center"
 
-    >This part is written in svelte</h3>
+    >This part is written in <strong>Svelte</strong></h3>
   </div>
   </div>
 </BackgroundBeamCollision>

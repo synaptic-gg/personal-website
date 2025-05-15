@@ -10,17 +10,21 @@
 
 </head>
 <body class="bg-black">
-  <div class="flex flex-col justify-center items-center w-[-2vh] h-full ">
+  <div class="flex flex-col justify-center items-center w-[-2vh] h-full gap-2 ">
     <div class="border-2 border-violet-700  rounded-lg">  
        <div id="svelte"></div>
   </div>
   
-     <div id="react"></div>
+    <div class="flex flex-col justify-center items-center w-[-2vh] h-full ">
+    <div class="border-2 border-violet-700  rounded-lg">  
+       <div id="react"></div>
+  </div>
   </div>
    
   
 
-  <script src=""></script>
+   <script src="./frameworks/react/dist/main.iife.js" defer ></script>
+    <link rel="stylesheet" href="./frameworks/react/dist/react.css">
   <script src="./frameworks/svelte/dist/main.iife.js" defer ></script>
     <link rel="stylesheet" href="./frameworks/svelte/dist/svelte.css">
 

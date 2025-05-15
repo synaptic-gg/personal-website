@@ -48,7 +48,7 @@
 
 <div
   bind:this={parentRef}
-  class={`h-50 md:h-[50vh] bg-gradient-to-b w-full from-neutral-600 to-neutral-800 dark:from-neutral-950 dark:to-neutral-800 relative flex items-center  justify-center overflow-hidden ${_class}`}
+  class={` min-h-100 w-full relative flex items-center  justify-center overflow-hidden ${_class}`}
 >
   {#each beams as beam}
     <CollisionMechanism {beam} bind:containerRef bind:parentRef />
